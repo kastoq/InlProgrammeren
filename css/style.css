@@ -1,0 +1,152 @@
+/************************************/
+/* CODE VOOR FONTS */
+/************************************/
+@font-face {
+  font-family: 'Flexo Medium';
+  src: url('Flexo-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Flexo Regular';
+  src: url('Flexo-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Flexo Demi';
+  src: url('Flexo-Demi.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/************************************/
+/* CODE VOOR WEBSITE */
+/************************************/
+body {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #458dd6;
+}
+
+section {
+  margin: 0 auto;
+}
+
+section article {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+h1 {
+  font-family: 'Flexo Demi', sans-serif;
+  font-size: 4em;
+  margin: 0 auto;
+}
+
+p:first-of-type {
+  color: white;
+}
+
+p {
+  font-family: 'Flexo Medium', sans-serif;
+  font-size: 4em;
+  margin: 0 auto;
+}
+
+p.health{
+  font-family: 'Flexo Medium', sans-serif;
+  font-size: 3em;
+  margin: 0 auto;
+}
+
+footer {
+  margin-top: 3.5em;
+  background-color: #2e68c7;
+  padding-bottom: 1em;
+}
+
+p.bronnen {
+  font-size: 1.5em;
+  color: Black;
+}
+
+img {
+  height: 25em;
+  margin: 0 auto;
+}
+
+button {
+  width: 10em;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 0.5em;
+  margin-left: 0;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+div.box {
+  display: block;
+  width: 50%;
+  height: 2em;
+  background-color: white;
+  position: relative;
+  top:0;
+  left: 25%;
+}
+
+div.bar {
+  display: block;
+  width: 40%;
+  height: 2em;
+  background-color: green;
+  position: absolute;
+  left:0;
+  top:0;
+}
